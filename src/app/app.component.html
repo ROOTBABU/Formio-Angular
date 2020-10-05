@@ -1,0 +1,10 @@
+<div class="d-flex p-2 mt-5 justify-content-center">
+    <div class="card userForm">
+        <div class="card-header text-center font-weight-bold">
+            Formio
+        </div>
+        <div class="card-body">
+            <formio [form]="jsonForm" (submit)="onSubmit($event)"></formio>
+        </div>
+    </div>
+</div>
